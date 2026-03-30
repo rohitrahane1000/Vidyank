@@ -41,10 +41,17 @@ A comprehensive React Native learning platform built with Expo that provides use
 - App branding and loading experience
 - Smooth transition to main application
 
+![Spash Screen](https://github.com/user-attachments/assets/aa7c993d-a87c-4bfd-9015-83701dd49285)
+
+
 #### Login/Registration Screen
 - Secure authentication with form validation
 - Toggle between login and signup modes
 - Error handling and success feedback
+
+![Login Screen](https://github.com/user-attachments/assets/fb7a844a-5ad1-4a06-9010-7cabebb358b6)
+
+![register Screen](https://github.com/user-attachments/assets/b7f87435-faca-4f33-8291-906c2ec0f801)
 
 #### Course List Screen (Home)
 - Featured courses carousel with auto-scroll
@@ -52,6 +59,8 @@ A comprehensive React Native learning platform built with Expo that provides use
 - Course grid layout for browsing
 - Filter options (All Courses, Bookmarks, Enrolled)
 - Side navigation menu access
+![Home Screen](https://github.com/user-attachments/assets/45b417c7-11b0-4559-b1ca-cbfb42f2b076)
+
 
 #### Course Details Screen
 - High-resolution course images with gallery navigation
@@ -60,16 +69,25 @@ A comprehensive React Native learning platform built with Expo that provides use
 - Enrollment and bookmark functionality
 - WebView access for course content
 
+![Course Detail Screen](https://github.com/user-attachments/assets/303e60d1-1482-4be9-bfe8-98bb60a15512)
+
+
 #### Profile Screen
 - User information display
 - Avatar upload and management
 - Account verification status
 - Membership details and settings
 
+![Profile  Screen](https://github.com/user-attachments/assets/9a74030b-c96e-4e45-aaea-2ffe919b36e4)
+
+
 #### Course WebView Screen
 - In-app course content viewing
 - Seamless learning experience
 - Navigation controls
+
+![Web View Screen](https://github.com/user-attachments/assets/dba84830-2de9-4101-9c87-ecd0ab56460f)
+
 
 ## 🛠 Tech Stack
 
