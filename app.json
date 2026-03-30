@@ -1,0 +1,89 @@
+{
+  "expo": {
+    "name": "Vidyank",
+    "slug": "Vidyank",
+    "owner": "rohit.rahane",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Icon1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Icon1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to update your profile picture.",
+        "NSCameraUsageDescription": "This app needs access to your camera to take profile pictures.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "notification": {
+        "icon": "./assets/Icon1.png"
+      },
+      "bundleIdentifier": "y"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/Icon1.png",
+        "backgroundImage": "./assets/Icon1.png",
+        "monochromeImage": "./assets/Icon1.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.rohitrahane001.Vidyank",
+      "permissions": [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.VIBRATE",
+        "android.permission.WAKE_LOCK",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ],
+      "usesCleartextTraffic": true,
+      "networkSecurityConfig": {
+        "domain-config": [
+          {
+            "domain": "api.freeapi.app",
+            "cleartextTrafficPermitted": false,
+            "pin-set": []
+          }
+        ]
+      },
+      "notification": {
+        "icon": "./assets/Icon1.png",
+        "color": "#007AFF",
+        "androidMode": "default",
+        "androidCollapsedTitle": "Vidyank"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Icon1.png"
+    },
+    "plugins": [
+      "expo-dev-client",
+      "expo-secure-store",
+      "expo-web-browser",
+      "expo-image-picker",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/Icon1.png",
+          "color": "#007AFF",
+          "defaultChannel": "vidyank-notifications",
+          "sounds": [],
+          "mode": "production"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fd234988-3e03-457e-9636-a53909ebaf8c"
+      }
+    }
+  }
+}
